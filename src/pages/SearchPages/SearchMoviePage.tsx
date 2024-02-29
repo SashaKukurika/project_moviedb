@@ -1,7 +1,9 @@
+import {SearchForm} from "../../components/SearchForm/SearchForm";
+
 const SearchMoviePage = () => {
     return (
         <div>
-            SearchMoviePage
+            <SearchForm/>
         </div>
     );
 };

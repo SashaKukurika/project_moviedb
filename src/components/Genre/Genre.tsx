@@ -9,7 +9,7 @@ genre: IGenre
 const Genre: FC<IProps> = ({genre:{id,name}}) => {
     const navigate = useNavigate();
     const handleCardClick = () => {
-        navigate(`genres/${id}`);
+        navigate(`${id}`);
     };
     // todo стилізація
     return (
