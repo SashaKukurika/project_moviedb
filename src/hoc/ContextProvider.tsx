@@ -1,15 +1,24 @@
-import {FC, PropsWithChildren} from "react";
+import React, { createContext, useState, ReactNode } from "react";
 
-interface IProps extends PropsWithChildren{
+type StateType = any;
 
+const Context = createContext<[StateType, React.Dispatch<React.SetStateAction<StateType>>] | null>(null);
+
+interface ContextProviderProps {
+    children: ReactNode;
 }
 
-const ContextProvider:FC<IProps> = ({children}) => {
+const ContextProvider = ({ children }: ContextProviderProps) => {
+    const state = useState<StateType>(null); // Початковий стан тут
+
     return (
-        <div>
-            ContextProvider
-        </div>
+        <Context.Provider value={state}>
+            {children}
+        </Context.Provider>
     );
 };
 
-export {ContextProvider};
+export {
+    ContextProvider,
+    Context
+};

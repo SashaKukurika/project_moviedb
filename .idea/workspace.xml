@@ -4,28 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b31c747a-44b5-4f74-bd42-a9de463aaa53" name="Changes" comment="part_1">
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/GenresPages/GenresPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/GenresPages/SelectedGenresInfoPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/GenresPages/SelectedGenresPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/GenresPages/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MoviePages/MovieInfoPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MoviePages/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SearchPages/SearchMoviePage.tsx" afterDir="false" />
+    <list default="true" id="b31c747a-44b5-4f74-bd42-a9de463aaa53" name="Changes" comment="part_1.1">
+      <change afterPath="$PROJECT_DIR$/src/components/Genres/Genres.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieInfo/MovieInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieList/MovieList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieList/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieListCard/MovieListCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieListCard/MovieListCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieListCard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/useAppContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/usePagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/genresService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/ContextProvider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviePages/MoviesPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/movieInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/movieInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GenresPages/GenresPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenresPages/GenresPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MoviePages/MovieInfoPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviePages/MovieInfoPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MoviePages/MoviesPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MoviePages/MoviesPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/apiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/apiService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/responseType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/responseType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -58,35 +67,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "CONST",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/bagil/IdeaProjects/project_moviedb/src/types",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\bagil\\IdeaProjects\\project_moviedb\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bagil/IdeaProjects/project_moviedb/src/services&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\bagil\\IdeaProjects\\project_moviedb\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\types" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\services" />
+      <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\types" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\pages" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\layouts" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\interfaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\components\MovieList" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\pages\Movie" />
       <recent name="C:\Users\bagil\IdeaProjects\project_moviedb\src\components" />
     </key>
@@ -100,7 +111,16 @@
       <option name="presentableId" value="Default" />
       <updated>1708965657235</updated>
       <workItem from="1708965658330" duration="5867000" />
-      <workItem from="1709028454529" duration="4095000" />
+      <workItem from="1709028454529" duration="4104000" />
+      <workItem from="1709115804878" duration="930000" />
+      <workItem from="1709119267761" duration="389000" />
+      <workItem from="1709119686993" duration="5848000" />
+      <workItem from="1709125573061" duration="10095000" />
+      <workItem from="1709135719611" duration="780000" />
+      <workItem from="1709136520624" duration="431000" />
+      <workItem from="1709136962556" duration="2049000" />
+      <workItem from="1709139035179" duration="3218000" />
+      <workItem from="1709199931737" duration="17075000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -110,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708978965000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="part_1">
+      <option name="closed" value="true" />
+      <created>1709041758505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709041758505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +148,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="start" />
     <MESSAGE value="part_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="part_1" />
+    <MESSAGE value="part_1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part_1.1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

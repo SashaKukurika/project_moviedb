@@ -33,3 +33,10 @@ html[data-theme='light'] {
   --background-main: snow;
   --button-disable: rgb(50, 54, 58);
 }
+
+:root {
+  --main-color: #76b852;
+  --second-color: #43A047;
+  --hover-color: #388E3C;
+  --error-color: #e00000;
+}
