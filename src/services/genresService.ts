@@ -5,7 +5,7 @@ import {IGenres} from "../interfaces";
 
 
 const genresService = {
-    getAll: ():IRes<IGenres[]> => apiService.get(urls.genres),
+    getAll: ():IRes<IGenres> => apiService.get(urls.genres),
     getById: (id: number, page = 1) :IRes<IGenres> => apiService.get(`${urls.movies}?with_genres=${id}`, {params: {page}})
 }
 
