@@ -17,7 +17,8 @@ export interface IResult {
     video: boolean,
     vote_average: number,
     vote_count: number,
-    genre_ids: IGenres[]
+    genre_ids: IGenres[],
+    genres: IGenre[],
 }
 
 export interface IGenres{
